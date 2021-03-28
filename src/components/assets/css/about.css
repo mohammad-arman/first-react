@@ -1,0 +1,51 @@
+.about-area .section-heading{
+    padding-bottom: 50px;
+}
+.about-area .section-heading h3{
+    color: #333;
+    margin-top: 0;
+}
+.about-area .section-heading h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+    color: #273044;
+}
+.about-area .about .single-about .icon-shape{
+    background: url(../images/icon-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+    width: 100px;
+    height: 100px;
+    margin-left: 130px;
+}
+.about-area .about .single-about .icon-shape i{
+    margin-top: 40px;
+    font-size: 25px;
+    color: #fff;
+}
+.about-area .about .single-about{
+    box-shadow: 0 3px 20px 0px rgb(0 0 0 / 12%);
+    border-radius: 1.5rem;
+    transition: all .2s ease-out;
+    padding: 31px;
+}
+.about-area .about .single-about:hover{
+    transition: all .2s ease-out;
+    will-change: transform;
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(31,45,61,.125)!important;
+}
+.about-area .about .single-about h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #273044;
+}
+.about-area .about .single-about p{
+    color: #333;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+}
+
